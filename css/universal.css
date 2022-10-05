@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Roboto+Slab&display=swap");
+
+/* Universal */
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff9d1;
+  font-family: "Fredoka", sans-serif;
+}

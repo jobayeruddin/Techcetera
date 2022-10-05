@@ -1,0 +1,27 @@
+.sub-input {
+  height: 35px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.sub-img-url {
+  height: 35px;
+  font-size: 25px;
+}
+.sub-btn {
+  background-color: #1d1010;
+  color: #fff9d1;
+  padding: 6px 10px;
+  border: 2px solid #1d1010;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.sub-btn:hover {
+  background-color: #fff9d1;
+  border: 2px solid #1d1010;
+  color: #1d1010;
+}
+.sub-btn:active {
+  background-color: #1d1010;
+  border: 2px solid #fff9d1;
+  color: #fff9d1;
+}

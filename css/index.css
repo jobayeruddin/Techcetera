@@ -1,0 +1,106 @@
+/* about Us Start */
+.abtus-img {
+  transition: 0.5s;
+  border-radius: 15px;
+}
+.abtus-img:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 15px 20px 5px #666666;
+}
+.para1 {
+  border-right: 2px solid black;
+  text-align: justify;
+}
+/* about Us End */
+
+/* Parallax Start */
+.parallax {
+  background-image: url("../imgs/6310.jpg");
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.cus-paral-h {
+  min-height: inherit;
+  padding: 150px 0px;
+  font-size: 100px;
+  color: #1d1010;
+  text-decoration: underline;
+}
+/* Parallax End */
+
+/* Contact US Start */
+.card-div {
+  height: 300px;
+}
+.card-icons {
+  background-color: #abffc1;
+  width: 25%;
+  margin: 10px auto;
+  border-radius: 100px;
+  padding: 30px 0px;
+  font-size: 24px;
+}
+
+.a-card {
+  border-radius: 25px;
+  transition: 0.7s;
+}
+.a-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 15px 20px 5px #666666;
+}
+/* Contact US End */
+
+@media (max-width: 992px) {
+  .para1 {
+    border-right: none;
+  }
+  .parallax {
+    max-height: 275px;
+  }
+  .cus-paral-h {
+    padding: 70px 0px;
+    font-size: 80px;
+  }
+  .card-div {
+    height: fit-content;
+  }
+  .card-icons {
+    padding: 20px 5px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .abtus-img {
+    width: 103%;
+  }
+}
+@media (max-width: 768px) {
+  .cus-paral-h {
+    padding: 20px 0px;
+  }
+  .abtus-img {
+    width: 98.5%;
+  }
+}
+@media (max-width: 576px) {
+  .cus-paral-h {
+    font-size: 78px;
+  }
+}
+@media (max-width: 375px) {
+  .cus-paral-h {
+    font-size: 68px;
+  }
+}
+@media (max-width: 320px) {
+  .cus-paral-h {
+    font-size: 58px;
+  }
+}
