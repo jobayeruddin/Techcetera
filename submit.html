@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="imgs/favicon.png" />
+
+    <link rel="stylesheet" href="bootstrap_res/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/submit.css" />
+    <link rel="stylesheet" href="css/head.css" />
+    <link rel="stylesheet" href="css/foot.css" />
+    <link rel="stylesheet" href="css/universal.css" />
+    <link href="fontawesome_res/all.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="fontawesome_res/fontawesome.min.css"
+      integrity="sha512-8Vtie9oRR62i7vkmVUISvuwOeipGv8Jd+Sur/ORKDD5JiLgTGeBSkI3ISOhc730VGvA5VVQPwKIKlmi+zMZ71w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Create | Techcetera</title>
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <header id="whole_head">
+      <div class="container">
+        <!-- Logo Start -->
+        <div>
+          <h1 id="logo">Techcetera</h1>
+          <hr class="w-50 mx-auto" />
+        </div>
+        <!-- Logo End -->
+
+        <!-- Navbar Start -->
+        <nav class="d-block w-50 mx-auto head-nav">
+          <ul class="">
+            <li><a id="active" href="index.html">Home</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="submit.html">Create</a></li>
+          </ul>
+        </nav>
+        <!-- Navbar End -->
+      </div>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Main Start -->
+    <main>
+      <section class="container">
+        <div class="mt-3">
+          <h1 class="text-center">Create Your Post here</h1>
+          <hr class="w-50 mx-auto mb-4" />
+        </div>
+        <div class="w-50 mx-auto my-4">
+          <form>
+            <label class="d-block text-center" for="head"><h3>Heading:</h3></label>
+            <input
+              class="d-block w-100 mb-3 sub-input"
+              placeholder="Enter your text here."
+              type="text"
+              id="head"
+            />
+
+            <label class="d-block text-center" for=""
+              ><h3>Your Blog:</h3></label
+            >
+            <textarea
+              class="d-block w-100 mb-3"
+              name=""
+              id="para"
+              cols="30"
+              rows="10"
+              placeholder="Enter your blog here."
+            ></textarea>
+
+            <label class="d-block text-center" for=""
+              ><h3>Image URL:</h3></label
+            >
+            <input
+              class="d-block w-100 sub-img-url"
+              placeholder="Enter your URL here."
+              type="text"
+              id="img"
+            />
+
+            <input type="submit" class="d-block mx-auto my-3 sub-btn" onclick="datastore()">
+              
+            </input>
+          </form>
+        </div>
+      </section>
+    </main>
+        <!-- Main End -->
+
+
+    <!-- Footer Start -->
+    <footer class="whole-foot pt-4">
+      <nav class="w-50 mx-auto foot-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <hr class="w-50 mx-auto" />
+      <div>
+        <h5 class="text-center py-2 mb-auto">
+          Copyright &copy;2022 | All Rights Reserved by
+          <a href="#">Techcetera</a>
+        </h5>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- JS Files -->
+    <script src="/js/submit.js"></script>
+
+    <!-- Bootstrap JS files -->
+    <script src="bootstrap_res/bootstrap.min.js"></script>
+  </body>
+</html>

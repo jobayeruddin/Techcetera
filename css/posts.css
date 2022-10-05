@@ -1,0 +1,35 @@
+#main-div {
+  min-height: 50vmin;
+}
+
+.post-div p,
+.post-div h3,
+.post-h {
+  word-wrap: break-word;
+}
+
+.post-div {
+  background-color: #e7d78e;
+  border-radius: 50px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.post-div:hover {
+  background-color: #c29c63;
+}
+.whole_div button {
+  text-decoration: none;
+  background-color: #e7d78e;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  z-index: 11;
+}
+.whole_div button:hover {
+  background-color: #c29c63;
+  border: 1px solid #e7d78e;
+}
+.whole_div button:active {
+  background-color: #b69461;
+  border: 1px solid black;
+}
